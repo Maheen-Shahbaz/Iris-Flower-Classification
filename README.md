@@ -46,22 +46,12 @@ Python >=3.8 with the following libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-**How to Run**
+## How to Run
 
-Clone or download the repository.
+1. Clone or download the repository.
+2. Make sure `iris.csv` is in the same folder as the notebook.
+3. Open `Iris_Flower_Classification.ipynb` in **Jupyter Notebook** or **VS Code**.
+4. Run all cells sequentially to reproduce results.
 
-Ensure iris.csv is in the same folder as the notebook.
-
-Open Iris_Flower_Classification.ipynb in Jupyter Notebook or VS Code.
-
-Run all cells sequentially to reproduce the results.
-
-**Results**
-
-Logistic Regression: baseline model, good accuracy
-
-Random Forest: slightly higher accuracy, feature importance visualization
-
-Confusion matrices and classification reports included in notebook
 
 
