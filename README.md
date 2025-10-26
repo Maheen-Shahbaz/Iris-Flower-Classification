@@ -44,21 +44,16 @@ The notebook `Iris_Flower_Classification.ipynb` is divided into **clear cells**:
 Python >=3.8 with the following libraries:
 ## How to Run
 
-1. Clone or download the repository:
-   - Using Git:
-     git clone https://github.com/yourusername/Iris-Flower-Classification.git
-   - Or download the ZIP and extract it.
+1. Make sure the dataset file `iris.csv` is in the same folder as the notebook `Iris_Flower_Classification.ipynb`.
 
-2. Make sure the dataset file `iris.csv` is in the same folder as the notebook `Iris_Flower_Classification.ipynb`.
-
-3. Install the required Python libraries. You can use the provided `requirements.txt`:
+2. Install the required Python libraries. You can use the provided `requirements.txt`:
    pip install -r requirements.txt
    Or install manually:
    pip install pandas numpy matplotlib seaborn scikit-learn
 
-4. Open the notebook `Iris_Flower_Classification.ipynb` in Jupyter Notebook or VS Code.
+3. Open the notebook `Iris_Flower_Classification.ipynb` in Jupyter Notebook or VS Code.
 
-5. Run all cells sequentially to:
+4. Run all cells sequentially to:
    - Load and explore the dataset
    - Preprocess the data
    - Train Logistic Regression and Random Forest models
